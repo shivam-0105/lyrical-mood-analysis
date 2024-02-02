@@ -1,2 +1,7 @@
-# Lyrics Emotion Detection
-The main goal of this project is to explore emotion detection in music using lyrics. Firstly, 1,160 song lyrics are hand-annotated using 9 categories of the Geneva Emotional Music Scales (GEMS) (Zentner et al., 2008) emotions. Using the generated dataset, we developed single-label and multi-label classifiers using unigram, bigram, term frequency-inverse document frequency (tfidf) BOW features to detect emotions in lyrics, which achieved 0.65 and 0.82 F1 scores respectively.
+# Lyrics based Mood Detection
+
+<ul>
+  <li>Utilized the Million Song Dataset and MusiXmatch dataset for mood classification, focusing on binary categorizations of happy and sad moods using PyTorch, Sci-kit learn, Pandas and NumPy.</li>
+  <li>Implemented various feature extraction methods, including TF-IDF, Word Embeddings, and Ngram Vectorizer, to analyze song lyrics and extract relevant features.</li>
+  <li>Employed machine learning models such as Random Forest, Decision Tree, XGboost, and Naive Bayes for mood classification, with Sentence BERT vectorizer achieving superior accuracy in capturing nuanced emotional expressions.</li>
+</ul>
